@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>VIEW PDF</title>
+      <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+   </head>
+   <body>
+
+      <!-- <h1>Simple PDF.js with zoom</h1> -->
+
+
+
+
+      <div style="text-align: center">
+        <button id="prevbutton" type="button">prev page</button>
+        <button id="nextbutton" type="button">next page</button>
+        <button id="zoominbutton" type="button">zoom in</button>
+        <button id="zoomoutbutton" type="button">zoom out</button>
+        <!-- <button onclick="shiftPage()">Go To Page</button> -->
+        <input type="text" id="pageInput" value="1">
+        <p id="currentPageNum">Loading PDF Please Wait...</p>
+        <br>
+        <br>
+
+
+        <canvas id="the-canvas" style="border:1px  solid black"></canvas>
+      </div>
+
+    <script src="main.js"></script>
+
+
+   </body>
+</html>
